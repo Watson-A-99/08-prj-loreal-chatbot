@@ -43,6 +43,7 @@ main {
   position: relative;
   overflow: hidden;
   border-radius: 0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.22);
   width: 100vw;
   min-height: 220px;
   display: flex;
@@ -95,7 +96,6 @@ main {
   margin-bottom: 20px;
   filter: drop-shadow(0 6px 18px rgba(0, 0, 0, 0.35));
 }
-
 
 .site-title {
   font-size: 22px;
