@@ -10,7 +10,7 @@ const sendBtn = document.getElementById("sendBtn");
   2) Cloudflare Worker URL (recommended for production)
 */
 const OPENAI_URL = "https://api.openai.com/v1/chat/completions";
-const WORKER_URL = ""; // Example: "https://your-worker.your-subdomain.workers.dev"
+const WORKER_URL = "https://openai-api-worker.aimee-watson642.workers.dev"; // Example: "https://your-worker.your-subdomain.workers.dev"
 
 // Keep full conversation so the assistant has context.
 const messages = [
